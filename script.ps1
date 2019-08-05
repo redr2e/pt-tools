@@ -1,5 +1,6 @@
 #Using WUA to Scan for Updates Offline with PowerShell 
 #VBS version: https://docs.microsoft.com/en-us/previous-versions/windows/desktop/aa387290(v=vs.85) 
+#http://go.microsoft.com/fwlink/?LinkId=76054
  
 $UpdateSession = New-Object -ComObject Microsoft.Update.Session 
 $UpdateServiceManager  = New-Object -ComObject Microsoft.Update.ServiceManager 
